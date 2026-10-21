@@ -37,7 +37,7 @@ H3K9me3 CHIPseq was performed on patient-derived GSCs following HDAC7 siRNA knoc
 
 # Full Analysis
 
-**[View the complete rendered CHIP-seq analysis →](https://olahassan000.github.io/HDAC7-GBM-Epigenomics/)**
+**[View the complete rendered CHIP-seq analysis →](https://olahassan000.github.io/HDAC7-GBM-Epigenomics--R/)**
 
 The full R Markdown workflow includes H3K9me3 enrichment analysis in HDAC7-knockdown versus control GSCs, identification and comparison of regions with differential H3K9me3 signal, genome-wide signal profiling and heatmap visualization, genomic annotation of enriched regions, and biological interpretation of HDAC7-associated heterochromatin remodeling.
 
