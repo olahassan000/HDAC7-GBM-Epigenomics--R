@@ -123,13 +123,6 @@ The 1.5-fold cutoff selects regions by effect size. Results are descriptive; rep
 
 Genomic annotations identify candidate gene associations. Local H3K9me3 changes alone do not establish altered gene expression, direct HDAC7 targets, or heterochromatin spreading. Interpretation considers the location, intensity, and extent of the observed signal alongside the broader study.
 
-## Explore the Analysis
-
-The rendered R Markdown report contains the analysis code, figures, tables, and biological interpretation:
-
-[**Open the complete H3K9me3 ChIP-seq analysis →**](https://olahassan000.github.io/HDAC7-GBM-Epigenomics--R/)
-
-
 
 ## Study context and disclosure
 
