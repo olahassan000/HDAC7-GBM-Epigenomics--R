@@ -117,12 +117,11 @@ These outputs distinguish changes in **signal intensity**, **called-region cover
 
 ## Analysis Scope and Biological Interpretation
 
-This notebook explores one publicly deposited ChIP track per condition together with an input track. It focuses on genomic coverage, signal visualization, and annotation, providing a reproducible workflow for examining the deposited data.
+This notebook explores publicly deposited H3K9me3 ChIP-seq tracks for control and HDAC7-knockdown cells, together with an input track. It provides a reproducible workflow for comparing genomic coverage, visualizing signal distributions, and annotating enriched regions.
 
-The 1.5-fold cutoff selects regions by effect size. Results are descriptive; replicate-based statistical testing is outside this notebook’s scope. This linear cutoff is distinct from a log2 fold-change threshold of 1.5.
+Regions were selected using an exploratory 1.5-fold linear change cutoff, distinct from the log2 fold-change cutoff of 1.5 reported in our publication. Results are descriptive, with replicate-based statistical testing outside the scope of this notebook.
 
-Genomic annotations identify candidate gene associations. Local H3K9me3 changes alone do not establish altered gene expression, direct HDAC7 targets, or heterochromatin spreading. Interpretation considers the location, intensity, and extent of the observed signal alongside the broader study.
-
+Importantly, regions with decreased H3K9me3 enrichment showed weaker signal and less sharply defined aggregate profiles than regions with increased enrichment. The notebook’s profiles provide a complementary visualization of local H3K9me3 changes in the public dataset.
 
 ## Study context and disclosure
 
